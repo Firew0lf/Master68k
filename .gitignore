@@ -1,0 +1,11 @@
+*.o
+*.log
+# some old stuff
+/old/*
+# emulator is Musashi, put it in the ./emu/ directory, build it, then build the emulator
+/emu/*
+!/emu/simu.c
+!/emu/build.sh
+!/emu/m68kconf.h
+# all the squirrel stuff
+/src/sq*
